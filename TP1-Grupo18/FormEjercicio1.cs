@@ -23,5 +23,14 @@ namespace TP1_Grupo18
         {
             formPrincipal.Show();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            if(txtNombre.Text.Trim() != "")
+            {
+                lbNombres.Items.Add(txtNombre.Text.Trim());
+                txtNombre.Text = string.Empty;
+            }
+        }
     }
 }
