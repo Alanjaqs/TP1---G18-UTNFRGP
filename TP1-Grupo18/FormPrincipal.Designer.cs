@@ -68,6 +68,7 @@
             this.btnE2.TabIndex = 1;
             this.btnE2.Text = "EJERCICIO 2";
             this.btnE2.UseVisualStyleBackColor = false;
+            this.btnE2.Click += new System.EventHandler(this.btnE2_Click);
             // 
             // btnE3
             // 
@@ -82,6 +83,7 @@
             this.btnE3.TabIndex = 2;
             this.btnE3.Text = "EJERCICIO 3";
             this.btnE3.UseVisualStyleBackColor = false;
+            this.btnE3.Click += new System.EventHandler(this.btnE3_Click);
             // 
             // lblIntegrantes
             // 

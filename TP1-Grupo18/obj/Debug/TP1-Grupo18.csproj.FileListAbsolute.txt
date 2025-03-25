@@ -9,3 +9,16 @@ C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1-Grupo18.csproj.Co
 C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1-Grupo18.exe
 C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1-Grupo18.pdb
 C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio1.resources
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\bin\Debug\TP1-Grupo18.exe.config
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\bin\Debug\TP1-Grupo18.exe
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\bin\Debug\TP1-Grupo18.pdb
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.csproj.AssemblyReference.cache
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormPrincipal.resources
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio1.resources
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1_Grupo18.Properties.Resources.resources
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.csproj.GenerateResource.cache
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.csproj.CoreCompileInputs.cache
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.exe
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.pdb
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio2.resources
+C:\Users\bubit\Desktop\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio3.resources

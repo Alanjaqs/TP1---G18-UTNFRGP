@@ -23,5 +23,19 @@ namespace TP1_Grupo18
             formEjercicio1.Show();
             this.Hide();
         }
+
+        private void btnE2_Click(object sender, EventArgs e)
+        {
+            FormEjercicio2 formEjercicio2 = new FormEjercicio2(this);
+            formEjercicio2.Show();
+            this.Hide();
+        }
+
+        private void btnE3_Click(object sender, EventArgs e)
+        {
+            FormEjercicio3 formEjercicio3 = new FormEjercicio3(this);
+            formEjercicio3.Show();
+            this.Hide();
+        }
     }
 }
