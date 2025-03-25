@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\",
+  "WorkspaceRootPath": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\bubit\\desktop\\tp1---g18-utnfrgp\\tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\coron\\onedrive\\documents\\utn\\3c - programacion iii\\1 - unidad 1\\tp_1\\tp1---g18-utnfrgp\\tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\coron\\onedrive\\documents\\utn\\3c - programacion iii\\1 - unidad 1\\tp_1\\tp1---g18-utnfrgp\\tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,65 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormEjercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio3.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio3.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:21:07.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormEjercicio1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
-              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio1.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "FormEjercicio2.cs",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio2.cs",
+              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio2.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio2.cs",
+              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:51:29.614Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-25T15:21:06.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormEjercicio3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio3.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:18:29.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormEjercicio2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio2.cs",
+              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio2.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:18:08.099Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormEjercicio1.cs",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
               "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio1.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T02:29:42.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "TP1-Grupo18\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs",
-              "RelativeToolTip": "TP1-Grupo18\\FormPrincipal.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormEjercicio1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs",
+              "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio1.cs",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T02:26:52.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T02:27:08.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "TP1-Grupo18\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\bubit\\Desktop\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "TP1-Grupo18\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T02:19:34.347Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-25T02:19:34.347Z"
             }
           ]
         }
