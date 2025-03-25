@@ -32,6 +32,8 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.lbNombres = new System.Windows.Forms.ListBox();
+            this.btnPasarUno = new System.Windows.Forms.Button();
+            this.lbRecibeNombre = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -67,8 +69,28 @@
             this.lbNombres.FormattingEnabled = true;
             this.lbNombres.Location = new System.Drawing.Point(42, 111);
             this.lbNombres.Name = "lbNombres";
+            this.lbNombres.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbNombres.Size = new System.Drawing.Size(172, 225);
             this.lbNombres.TabIndex = 3;
+            // 
+            // btnPasarUno
+            // 
+            this.btnPasarUno.Location = new System.Drawing.Point(250, 167);
+            this.btnPasarUno.Name = "btnPasarUno";
+            this.btnPasarUno.Size = new System.Drawing.Size(75, 23);
+            this.btnPasarUno.TabIndex = 4;
+            this.btnPasarUno.Text = ">";
+            this.btnPasarUno.UseVisualStyleBackColor = true;
+            this.btnPasarUno.Click += new System.EventHandler(this.btnPasarUno_Click);
+            // 
+            // lbRecibeNombre
+            // 
+            this.lbRecibeNombre.FormattingEnabled = true;
+            this.lbRecibeNombre.Location = new System.Drawing.Point(350, 111);
+            this.lbRecibeNombre.Name = "lbRecibeNombre";
+            this.lbRecibeNombre.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.lbRecibeNombre.Size = new System.Drawing.Size(172, 225);
+            this.lbRecibeNombre.TabIndex = 5;
             // 
             // FormEjercicio1
             // 
@@ -76,6 +98,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(584, 418);
+            this.Controls.Add(this.lbRecibeNombre);
+            this.Controls.Add(this.btnPasarUno);
             this.Controls.Add(this.lbNombres);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txtNombre);
@@ -95,5 +119,7 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.ListBox lbNombres;
+        private System.Windows.Forms.Button btnPasarUno;
+        private System.Windows.Forms.ListBox lbRecibeNombre;
     }
 }

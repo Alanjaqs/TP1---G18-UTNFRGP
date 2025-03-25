@@ -57,5 +57,33 @@ namespace TP1_Grupo18
                 txtNombre.Text = "";
             }
         }
+
+        private void btnPasarUno_Click(object sender, EventArgs e)
+        {
+            //se verifica que haya seleccionado por lo menos un item
+            if (lbNombres.SelectedItems.Count > 0)
+            {
+                //se crea un array del tamaño de los elementos selecionados
+                string[] iteamsSeleccionados = new string[lbNombres.SelectedItems.Count];
+
+                //se llena el array con el elemento seleccionado en cada posicion
+                for (int i = 0; i < lbNombres.SelectedItems.Count; i++)
+                {
+                    iteamsSeleccionados[i] = lbNombres.SelectedItems[i].ToString();
+                }
+
+                //se mueven los elementos a lbPasados y se eliminan de lbAgregados
+                foreach (var item in iteamsSeleccionados)
+                {
+                    lbRecibeNombre.Items.Add(item);
+                    lbNombres.Items.Remove(item);
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Por favor seleccione al menos un item", "Atencion");
+            }
+        }
     }
 }
