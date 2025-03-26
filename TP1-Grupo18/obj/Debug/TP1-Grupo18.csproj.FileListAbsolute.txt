@@ -48,3 +48,5 @@ C:\Users\segov\ENZO-PC\Escritorio\tpgrupa\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debu
 C:\Users\segov\ENZO-PC\Escritorio\tpgrupa\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.csproj.CoreCompileInputs.cache
 C:\Users\segov\ENZO-PC\Escritorio\tpgrupa\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.exe
 C:\Users\segov\ENZO-PC\Escritorio\tpgrupa\TP1---G18-UTNFRGP\TP1-Grupo18\obj\Debug\TP1-Grupo18.pdb
+C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio2.resources
+C:\Users\Usuario\Desktop\TP1-Grupo18\TP1-Grupo18\obj\Debug\TP1_Grupo18.FormEjercicio3.resources

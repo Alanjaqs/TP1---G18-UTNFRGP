@@ -85,5 +85,15 @@ namespace TP1_Grupo18
                 MessageBox.Show("Por favor seleccione al menos un item", "Atencion");
             }
         }
+
+        private void btnPasarTodos_Click(object sender, EventArgs e)
+        {
+            foreach(var item in lbNombres.Items)
+            {
+                lbRecibeNombre.Items.Add(item);
+            }
+
+            lbNombres.Items.Clear();
+        }
     }
 }

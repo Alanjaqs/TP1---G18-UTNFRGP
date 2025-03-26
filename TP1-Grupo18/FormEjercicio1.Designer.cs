@@ -34,6 +34,7 @@
             this.lbNombres = new System.Windows.Forms.ListBox();
             this.btnPasarUno = new System.Windows.Forms.Button();
             this.lbRecibeNombre = new System.Windows.Forms.ListBox();
+            this.btnPasarTodos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -55,13 +56,16 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.btnAgregar.Location = new System.Drawing.Point(402, 49);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(82, 31);
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // lbNombres
@@ -75,12 +79,15 @@
             // 
             // btnPasarUno
             // 
+            this.btnPasarUno.BackColor = System.Drawing.SystemColors.Control;
+            this.btnPasarUno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPasarUno.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPasarUno.Location = new System.Drawing.Point(250, 167);
             this.btnPasarUno.Name = "btnPasarUno";
             this.btnPasarUno.Size = new System.Drawing.Size(75, 23);
             this.btnPasarUno.TabIndex = 4;
             this.btnPasarUno.Text = ">";
-            this.btnPasarUno.UseVisualStyleBackColor = true;
+            this.btnPasarUno.UseVisualStyleBackColor = false;
             this.btnPasarUno.Click += new System.EventHandler(this.btnPasarUno_Click);
             // 
             // lbRecibeNombre
@@ -92,12 +99,25 @@
             this.lbRecibeNombre.Size = new System.Drawing.Size(172, 225);
             this.lbRecibeNombre.TabIndex = 5;
             // 
+            // btnPasarTodos
+            // 
+            this.btnPasarTodos.BackColor = System.Drawing.SystemColors.Control;
+            this.btnPasarTodos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPasarTodos.Location = new System.Drawing.Point(250, 229);
+            this.btnPasarTodos.Name = "btnPasarTodos";
+            this.btnPasarTodos.Size = new System.Drawing.Size(75, 23);
+            this.btnPasarTodos.TabIndex = 6;
+            this.btnPasarTodos.Text = ">>";
+            this.btnPasarTodos.UseVisualStyleBackColor = false;
+            this.btnPasarTodos.Click += new System.EventHandler(this.btnPasarTodos_Click);
+            // 
             // FormEjercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(584, 418);
+            this.Controls.Add(this.btnPasarTodos);
             this.Controls.Add(this.lbRecibeNombre);
             this.Controls.Add(this.btnPasarUno);
             this.Controls.Add(this.lbNombres);
@@ -121,5 +141,6 @@
         private System.Windows.Forms.ListBox lbNombres;
         private System.Windows.Forms.Button btnPasarUno;
         private System.Windows.Forms.ListBox lbRecibeNombre;
+        private System.Windows.Forms.Button btnPasarTodos;
     }
 }
