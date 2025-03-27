@@ -88,12 +88,22 @@ namespace TP1_Grupo18
 
         private void btnPasarTodos_Click(object sender, EventArgs e)
         {
-            foreach(var item in lbNombres.Items)
-            {
-                lbRecibeNombre.Items.Add(item);
-            }
+            if (lbNombres.Items.Count > 0){
 
-            lbNombres.Items.Clear();
+                foreach (var item in lbNombres.Items){
+                    lbRecibeNombre.Items.Add(item);
+                }
+                lbNombres.Items.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Debe haber por lo menos un item ", "Atencion");
+            }
+        }
+
+        private void FormEjercicio1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
