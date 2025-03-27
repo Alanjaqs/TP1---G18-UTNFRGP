@@ -146,6 +146,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nombre y apellido";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormEjercicio2_FormClosed);
+            this.Load += new System.EventHandler(this.FormEjercicio2_Load);
             this.grbIngresoDeDatos.ResumeLayout(false);
             this.grbIngresoDeDatos.PerformLayout();
             this.grbElementos.ResumeLayout(false);

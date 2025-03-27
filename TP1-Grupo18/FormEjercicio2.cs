@@ -72,6 +72,9 @@ namespace TP1_Grupo18
                     lbIngresoNombres.Items.Add(nuevoItem);
                 }
             }
+            // Limpia los textbox de ingreso de datos
+            textNombre.Text = string.Empty;
+            textApellido.Text = string.Empty;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -96,6 +99,12 @@ namespace TP1_Grupo18
                 MessageBox.Show("Debe seleccionar un item para borrar");
             
             
+        }
+
+        private void FormEjercicio2_Load(object sender, EventArgs e)
+        {
+            // Ordena alfabeticamente el listbox de elementos
+            lbIngresoNombres.Sorted = true;
         }
     }
 }
