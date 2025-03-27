@@ -36,7 +36,7 @@ namespace TP1_Grupo18
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //se comprueban que no haya campos sin completar
+            //Valida que no esté en blanco
             if (textNombre.Text.Trim() == "" && textApellido.Text.Trim() != "")
             {
                 MessageBox.Show("Por favor ingrese su nombre", "Ventana emergente");
@@ -51,7 +51,31 @@ namespace TP1_Grupo18
             }
             else
             {
-                //ejecucion del evento click
+                string nuevoItem = textNombre.Text.Trim().ToLower() + " " + textApellido.Text.Trim().ToLower();
+                bool existe = false;
+
+                //se compara cada item de la lista con la copia
+                foreach (string item in lbIngresoNombres.Items)
+                {
+                    //si encuentra coincidencia cambia de estado la bandera y detiene el bucle
+                    if (item.ToLower() == nuevoItem)
+                    {
+                        existe = true;
+
+                        break;
+                    }
+                }
+
+                //se verifica que el nombre ya fue ingresado
+                if (existe==true)
+                {
+                    MessageBox.Show("El nombre ya fue ingresado", "Atencion");
+                }
+                //se agrega el contenido del texto original a la lista de items
+                else
+                {
+                    lbIngresoNombres.Items.Add(nuevoItem);
+                }
             }
         }
 
