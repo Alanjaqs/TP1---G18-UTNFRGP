@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.gbEstadoCivil = new System.Windows.Forms.GroupBox();
-            this.gbSexo = new System.Windows.Forms.GroupBox();
-            this.rbFemenino = new System.Windows.Forms.RadioButton();
-            this.rbMasculino = new System.Windows.Forms.RadioButton();
-            this.rbCasado = new System.Windows.Forms.RadioButton();
             this.rbSoltero = new System.Windows.Forms.RadioButton();
+            this.rbCasado = new System.Windows.Forms.RadioButton();
+            this.gbSexo = new System.Windows.Forms.GroupBox();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.rbFemenino = new System.Windows.Forms.RadioButton();
+            this.clbOficios = new System.Windows.Forms.CheckedListBox();
             this.gbEstadoCivil.SuspendLayout();
             this.gbSexo.SuspendLayout();
             this.SuspendLayout();
@@ -42,77 +43,102 @@
             // 
             this.gbEstadoCivil.Controls.Add(this.rbSoltero);
             this.gbEstadoCivil.Controls.Add(this.rbCasado);
-            this.gbEstadoCivil.Location = new System.Drawing.Point(450, 25);
+            this.gbEstadoCivil.Location = new System.Drawing.Point(338, 20);
+            this.gbEstadoCivil.Margin = new System.Windows.Forms.Padding(2);
             this.gbEstadoCivil.Name = "gbEstadoCivil";
-            this.gbEstadoCivil.Size = new System.Drawing.Size(247, 118);
+            this.gbEstadoCivil.Padding = new System.Windows.Forms.Padding(2);
+            this.gbEstadoCivil.Size = new System.Drawing.Size(185, 96);
             this.gbEstadoCivil.TabIndex = 0;
             this.gbEstadoCivil.TabStop = false;
             this.gbEstadoCivil.Text = "Estado Civil";
             // 
-            // gbSexo
-            // 
-            this.gbSexo.Controls.Add(this.rbMasculino);
-            this.gbSexo.Controls.Add(this.rbFemenino);
-            this.gbSexo.Location = new System.Drawing.Point(32, 25);
-            this.gbSexo.Name = "gbSexo";
-            this.gbSexo.Size = new System.Drawing.Size(275, 118);
-            this.gbSexo.TabIndex = 1;
-            this.gbSexo.TabStop = false;
-            this.gbSexo.Text = "Sexo";
-            // 
-            // rbFemenino
-            // 
-            this.rbFemenino.AutoSize = true;
-            this.rbFemenino.Location = new System.Drawing.Point(47, 34);
-            this.rbFemenino.Name = "rbFemenino";
-            this.rbFemenino.Size = new System.Drawing.Size(88, 20);
-            this.rbFemenino.TabIndex = 0;
-            this.rbFemenino.TabStop = true;
-            this.rbFemenino.Text = "Femenino";
-            this.rbFemenino.UseVisualStyleBackColor = true;
-            // 
-            // rbMasculino
-            // 
-            this.rbMasculino.AutoSize = true;
-            this.rbMasculino.Location = new System.Drawing.Point(47, 74);
-            this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.Size = new System.Drawing.Size(89, 20);
-            this.rbMasculino.TabIndex = 1;
-            this.rbMasculino.TabStop = true;
-            this.rbMasculino.Text = "Masculino";
-            this.rbMasculino.UseVisualStyleBackColor = true;
-            // 
-            // rbCasado
-            // 
-            this.rbCasado.AutoSize = true;
-            this.rbCasado.Location = new System.Drawing.Point(60, 34);
-            this.rbCasado.Name = "rbCasado";
-            this.rbCasado.Size = new System.Drawing.Size(76, 20);
-            this.rbCasado.TabIndex = 0;
-            this.rbCasado.TabStop = true;
-            this.rbCasado.Text = "Casado";
-            this.rbCasado.UseVisualStyleBackColor = true;
-            // 
             // rbSoltero
             // 
             this.rbSoltero.AutoSize = true;
-            this.rbSoltero.Location = new System.Drawing.Point(60, 74);
+            this.rbSoltero.Location = new System.Drawing.Point(45, 60);
+            this.rbSoltero.Margin = new System.Windows.Forms.Padding(2);
             this.rbSoltero.Name = "rbSoltero";
-            this.rbSoltero.Size = new System.Drawing.Size(71, 20);
+            this.rbSoltero.Size = new System.Drawing.Size(58, 17);
             this.rbSoltero.TabIndex = 1;
             this.rbSoltero.TabStop = true;
             this.rbSoltero.Text = "Soltero";
             this.rbSoltero.UseVisualStyleBackColor = true;
             // 
+            // rbCasado
+            // 
+            this.rbCasado.AutoSize = true;
+            this.rbCasado.Checked = true;
+            this.rbCasado.Location = new System.Drawing.Point(45, 28);
+            this.rbCasado.Margin = new System.Windows.Forms.Padding(2);
+            this.rbCasado.Name = "rbCasado";
+            this.rbCasado.Size = new System.Drawing.Size(61, 17);
+            this.rbCasado.TabIndex = 0;
+            this.rbCasado.TabStop = true;
+            this.rbCasado.Text = "Casado";
+            this.rbCasado.UseVisualStyleBackColor = true;
+            // 
+            // gbSexo
+            // 
+            this.gbSexo.Controls.Add(this.rbMasculino);
+            this.gbSexo.Controls.Add(this.rbFemenino);
+            this.gbSexo.Location = new System.Drawing.Point(24, 20);
+            this.gbSexo.Margin = new System.Windows.Forms.Padding(2);
+            this.gbSexo.Name = "gbSexo";
+            this.gbSexo.Padding = new System.Windows.Forms.Padding(2);
+            this.gbSexo.Size = new System.Drawing.Size(206, 96);
+            this.gbSexo.TabIndex = 1;
+            this.gbSexo.TabStop = false;
+            this.gbSexo.Text = "Sexo";
+            // 
+            // rbMasculino
+            // 
+            this.rbMasculino.AutoSize = true;
+            this.rbMasculino.Location = new System.Drawing.Point(35, 60);
+            this.rbMasculino.Margin = new System.Windows.Forms.Padding(2);
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.Size = new System.Drawing.Size(73, 17);
+            this.rbMasculino.TabIndex = 1;
+            this.rbMasculino.TabStop = true;
+            this.rbMasculino.Text = "Masculino";
+            this.rbMasculino.UseVisualStyleBackColor = true;
+            // 
+            // rbFemenino
+            // 
+            this.rbFemenino.AutoSize = true;
+            this.rbFemenino.Checked = true;
+            this.rbFemenino.Location = new System.Drawing.Point(35, 28);
+            this.rbFemenino.Margin = new System.Windows.Forms.Padding(2);
+            this.rbFemenino.Name = "rbFemenino";
+            this.rbFemenino.Size = new System.Drawing.Size(71, 17);
+            this.rbFemenino.TabIndex = 0;
+            this.rbFemenino.TabStop = true;
+            this.rbFemenino.Text = "Femenino";
+            this.rbFemenino.UseVisualStyleBackColor = true;
+            // 
+            // clbOficios
+            // 
+            this.clbOficios.CheckOnClick = true;
+            this.clbOficios.FormattingEnabled = true;
+            this.clbOficios.Items.AddRange(new object[] {
+            "Data Entry",
+            "Operador de PC",
+            "Programador",
+            "Reparador de PC",
+            "Tester"});
+            this.clbOficios.Location = new System.Drawing.Point(163, 132);
+            this.clbOficios.Name = "clbOficios";
+            this.clbOficios.Size = new System.Drawing.Size(233, 139);
+            this.clbOficios.TabIndex = 2;
+            // 
             // FormEjercicio3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(779, 514);
+            this.ClientSize = new System.Drawing.Size(584, 418);
+            this.Controls.Add(this.clbOficios);
             this.Controls.Add(this.gbSexo);
             this.Controls.Add(this.gbEstadoCivil);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormEjercicio3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio 3";
@@ -134,5 +160,6 @@
         private System.Windows.Forms.RadioButton rbCasado;
         private System.Windows.Forms.RadioButton rbMasculino;
         private System.Windows.Forms.RadioButton rbFemenino;
+        private System.Windows.Forms.CheckedListBox clbOficios;
     }
 }
