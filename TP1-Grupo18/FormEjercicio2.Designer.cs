@@ -36,6 +36,7 @@
             this.lbIngresoNombres = new System.Windows.Forms.ListBox();
             this.grbIngresoDeDatos = new System.Windows.Forms.GroupBox();
             this.grbElementos = new System.Windows.Forms.GroupBox();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.grbIngresoDeDatos.SuspendLayout();
             this.grbElementos.SuspendLayout();
             this.SuspendLayout();
@@ -78,6 +79,7 @@
             // 
             // buttonAgregar
             // 
+            this.buttonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAgregar.Location = new System.Drawing.Point(118, 233);
             this.buttonAgregar.Name = "buttonAgregar";
@@ -111,6 +113,7 @@
             // 
             // grbElementos
             // 
+            this.grbElementos.Controls.Add(this.btnBorrar);
             this.grbElementos.Controls.Add(this.lbIngresoNombres);
             this.grbElementos.Location = new System.Drawing.Point(406, 12);
             this.grbElementos.Name = "grbElementos";
@@ -118,6 +121,18 @@
             this.grbElementos.TabIndex = 8;
             this.grbElementos.TabStop = false;
             this.grbElementos.Text = "Elementos";
+            // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.Location = new System.Drawing.Point(88, 366);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(145, 39);
+            this.btnBorrar.TabIndex = 7;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // FormEjercicio2
             // 
@@ -149,5 +164,6 @@
         private System.Windows.Forms.ListBox lbIngresoNombres;
         private System.Windows.Forms.GroupBox grbIngresoDeDatos;
         private System.Windows.Forms.GroupBox grbElementos;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }
