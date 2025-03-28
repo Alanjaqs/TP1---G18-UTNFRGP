@@ -19,11 +19,6 @@ namespace TP1_Grupo18
             this.formPrincipal = formPrincipal;
         }
 
-        private void FormEjercicio2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void FormEjercicio2_FormClosed(object sender, FormClosedEventArgs e)
         {
             formPrincipal.Show();
@@ -77,6 +72,9 @@ namespace TP1_Grupo18
                     lbIngresoNombres.Items.Add(nuevoItem);
                 }
             }
+            // Limpia los textbox de ingreso de datos
+            textNombre.Text = string.Empty;
+            textApellido.Text = string.Empty;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -87,6 +85,26 @@ namespace TP1_Grupo18
         private void textNombre_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            if (lbIngresoNombres.SelectedItems.Count > 0)
+            {
+                string item;
+                item = lbIngresoNombres.SelectedItem.ToString();
+                lbIngresoNombres.Items.Remove(item);
+            }
+            else
+                MessageBox.Show("Debe seleccionar un item para borrar");
+            
+            
+        }
+
+        private void FormEjercicio2_Load(object sender, EventArgs e)
+        {
+            // Ordena alfabeticamente el listbox de elementos
+            lbIngresoNombres.Sorted = true;
         }
     }
 }
