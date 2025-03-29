@@ -35,6 +35,10 @@
             this.rbMasculino = new System.Windows.Forms.RadioButton();
             this.rbFemenino = new System.Windows.Forms.RadioButton();
             this.clbOficios = new System.Windows.Forms.CheckedListBox();
+            this.btnMostrar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
             this.gbEstadoCivil.SuspendLayout();
             this.gbSexo.SuspendLayout();
             this.SuspendLayout();
@@ -130,12 +134,59 @@
             this.clbOficios.Size = new System.Drawing.Size(233, 139);
             this.clbOficios.TabIndex = 2;
             // 
+            // btnMostrar
+            // 
+            this.btnMostrar.BackColor = System.Drawing.SystemColors.Control;
+            this.btnMostrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMostrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMostrar.Location = new System.Drawing.Point(163, 300);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(233, 29);
+            this.btnMostrar.TabIndex = 3;
+            this.btnMostrar.Text = "Mostrar lo que se seleccionó";
+            this.btnMostrar.UseVisualStyleBackColor = false;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(21, 368);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(321, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Usted seleccionó los siguientes elementos:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(21, 400);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Sexo:";
+            // 
+            // lblGenero
+            // 
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGenero.Location = new System.Drawing.Point(66, 400);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(34, 17);
+            this.lblGenero.TabIndex = 6;
+            this.lblGenero.Text = "N/A";
+            // 
             // FormEjercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(584, 418);
+            this.ClientSize = new System.Drawing.Size(549, 543);
+            this.Controls.Add(this.lblGenero);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.clbOficios);
             this.Controls.Add(this.gbSexo);
             this.Controls.Add(this.gbEstadoCivil);
@@ -149,6 +200,7 @@
             this.gbSexo.ResumeLayout(false);
             this.gbSexo.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -161,5 +213,9 @@
         private System.Windows.Forms.RadioButton rbMasculino;
         private System.Windows.Forms.RadioButton rbFemenino;
         private System.Windows.Forms.CheckedListBox clbOficios;
+        private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblGenero;
     }
 }

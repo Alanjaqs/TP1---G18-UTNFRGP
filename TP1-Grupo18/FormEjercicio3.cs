@@ -29,6 +29,16 @@ namespace TP1_Grupo18
             formPrincipal.Show();
         }
 
-       
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            if (rbFemenino.Checked)
+            {
+                lblGenero.Text = "Femenino";
+            }
+            else if (rbMasculino.Checked)
+            {
+                lblGenero.Text = "Masculino";
+            }
+        }
     }
 }
