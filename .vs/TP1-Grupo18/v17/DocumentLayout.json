@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\TP1-Grupo18\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\Usuario\\Desktop\\TP1-Grupo18\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\usuario\\desktop\\tp1-grupo18\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP1-Grupo18\\TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T16:42:16.395Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-28T16:42:16.395Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio1.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAqwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:38:50.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T23:38:50.32Z"
             },
             {
               "$type": "Document",
@@ -118,8 +116,7 @@
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP1-Grupo18\\TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:36:44.185Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-27T23:36:44.185Z"
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio2.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:36:30.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T23:36:30.138Z"
             }
           ]
         }
