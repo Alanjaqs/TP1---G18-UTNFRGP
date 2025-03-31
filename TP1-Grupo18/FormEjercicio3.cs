@@ -39,6 +39,24 @@ namespace TP1_Grupo18
             {
                 lblGenero.Text = "Masculino";
             }
+
+            if (rbCasado.Checked) {
+                labelEstadoCivil.Text = "Casado";
+            }else if (rbSoltero.Checked)
+            {
+                labelEstadoCivil.Text = "Soltero";
+            }
+
+            labelSeleccion.Visible = true;
+            labelSexo.Visible = true;
+            labelEstadoCivilTitulo.Visible = true;
+            labelEstadoCivil.Visible = true;
+            lblGenero.Visible = true;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
