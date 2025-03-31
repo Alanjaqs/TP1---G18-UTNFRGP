@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\",
+  "WorkspaceRootPath": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\coron\\onedrive\\documents\\utn\\3c - programacion iii\\1 - unidad 1\\tp_1\\tp1---g18-utnfrgp\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\xxjul\\onedrive\\escritorio\\tp1---g18-utnfrgp\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|c:\\users\\coron\\onedrive\\documents\\utn\\3c - programacion iii\\1 - unidad 1\\tp_1\\tp1---g18-utnfrgp\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D11E2E1E-EE6E-4E18-80EC-A92D31388544}|TP1-Grupo18\\TP1-Grupo18.csproj|solutionrelative:tp1-grupo18\\formejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormEjercicio3.cs",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
               "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio3.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio3.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwDQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:15:40.926Z",
               "EditorCaption": ""
@@ -45,13 +45,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FormEjercicio3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs",
               "RelativeDocumentMoniker": "TP1-Grupo18\\FormEjercicio3.cs",
-              "ToolTip": "C:\\Users\\coron\\OneDrive\\Documents\\UTN\\3C - PROGRAMACION III\\1 - UNIDAD 1\\TP_1\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\TP1---G18-UTNFRGP\\TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
               "RelativeToolTip": "TP1-Grupo18\\FormEjercicio3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:14:43.994Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-03-31T13:14:43.994Z"
             }
           ]
         }

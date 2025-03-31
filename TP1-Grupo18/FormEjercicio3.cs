@@ -52,6 +52,21 @@ namespace TP1_Grupo18
             labelEstadoCivilTitulo.Visible = true;
             labelEstadoCivil.Visible = true;
             lblGenero.Visible = true;
+
+            string oficiosSeleccionados = "";
+
+            foreach (var item in clbOficios.CheckedItems)
+            {
+                oficiosSeleccionados += "- " + item.ToString() + "\n";
+            }
+
+            labelOficio.Text = oficiosSeleccionados;  
+
+            if (clbOficios.CheckedItems.Count > 0)
+            {
+                lblOficio.Visible = true;
+                labelOficio.Visible = true;
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
