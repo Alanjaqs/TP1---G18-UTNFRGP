@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.SymbolStore;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,5 +29,55 @@ namespace TP1_Grupo18
         {
             formPrincipal.Show();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            if (rbFemenino.Checked)
+            {
+                lblGenero.Text = "Femenino";
+            }
+            else if (rbMasculino.Checked)
+            {
+                lblGenero.Text = "Masculino";
+            }
+
+            if (rbCasado.Checked) {
+                labelEstadoCivil.Text = "Casado";
+            }else if (rbSoltero.Checked)
+            {
+                labelEstadoCivil.Text = "Soltero";
+            }
+
+            string oficiosSeleccionados = "";
+
+            foreach (var item in clbOficios.CheckedItems)
+            {
+                oficiosSeleccionados += "- " + item.ToString() + "\n";
+            }
+
+            labelOficio.Text = oficiosSeleccionados;
+
+            if (clbOficios.CheckedItems.Count > 0)
+            {
+                lblOficio.Visible = true;
+                labelOficio.Visible = true;
+            }
+
+            labelSeleccion.Visible = true;
+            labelSexo.Visible = true;
+            labelEstadoCivilTitulo.Visible = true;
+            labelEstadoCivil.Visible = true;
+            lblGenero.Visible = true;
+
+            
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }
